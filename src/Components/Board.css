@@ -1,0 +1,57 @@
+.Board{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 95%;
+    width: 95%;
+}
+
+.Board-Cont{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.Grid-item{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.each-item{
+    cursor: pointer;
+    width:100%; 
+    height:100%;
+     display:flex; 
+    justify-content:center;
+    align-items:center;
+}
+
+.Reload-Game{
+    width: 90%;
+    height: auto;
+    padding:7px;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: red;
+    font-size: 1.1rem;
+    margin-top: 15px;
+}
+
+.Turn-Decision{
+    width: 90%;
+    height: auto;
+    padding:7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(80, 3, 3);
+    font-size: 1rem;
+    margin-top: 15px;
+}
